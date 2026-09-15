@@ -275,7 +275,7 @@ def _render_candidate_detail(result) -> None:
                 for item in evaluation.evidence
             ]
         )
-        st.dataframe(evidence_df, hide_index=True, use_container_width=True)
+        st.dataframe(evidence_df, hide_index=True, width="stretch")
     else:
         st.info("No structured evidence records were produced for this candidate.")
 
@@ -343,7 +343,7 @@ with search_tab:
         final_top_k=final_top_k,
     )
     can_run = job_upload is not None and bool(resume_uploads or zip_upload)
-    if st.button("Analyze candidates", type="primary", disabled=not can_run, use_container_width=False):
+    if st.button("Analyze candidates", type="primary", disabled=not can_run, width="content"):
         try:
             with st.spinner("Parsing resumes, retrieving candidates, reranking, and building grounded explanations…"):
                 st.session_state["hireflow_bundle"] = _run_search(job_upload, resume_uploads, zip_upload, config)
@@ -375,7 +375,7 @@ with search_tab:
                 {"Stage": stage.replace("_", " ").title(), "Latency (ms)": latency}
                 for stage, latency in bundle.stage_timings_ms.items()
             ]
-            st.dataframe(pd.DataFrame(timing_rows), use_container_width=True, hide_index=True)
+            st.dataframe(pd.DataFrame(timing_rows), width="stretch", hide_index=True)
 
         with st.expander("Filter shortlist", expanded=False):
             fc1, fc2, fc3 = st.columns(3)
@@ -404,7 +404,7 @@ with search_tab:
             st.dataframe(
                 _results_frame(filtered),
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
                 column_config={"Fit score": st.column_config.ProgressColumn(min_value=0, max_value=100, format="%.1f")},
             )
             for result in filtered:
@@ -418,14 +418,14 @@ with search_tab:
             results_to_csv(bundle),
             file_name="hireflow_candidate_shortlist.csv",
             mime="text/csv",
-            use_container_width=True,
+            width="stretch",
         )
         download_b.download_button(
             "Download JSON",
             results_to_json(bundle),
             file_name="hireflow_candidate_shortlist.json",
             mime="application/json",
-            use_container_width=True,
+            width="stretch",
         )
 
 with detail_tab:
@@ -454,7 +454,7 @@ with evaluation_tab:
     if metrics_path.exists():
         metrics = pd.read_csv(metrics_path)
         st.markdown("### Phase 4 experiment comparison")
-        st.dataframe(metrics, hide_index=True, use_container_width=True)
+        st.dataframe(metrics, hide_index=True, width="stretch")
     else:
         st.info("Run `python scripts/evaluate_phase4.py` to regenerate the experiment table.")
 
