@@ -1,0 +1,27 @@
+# Core configuration and validation
+pydantic>=2.9,<3
+pydantic-settings>=2.6,<3
+python-dotenv>=1.0,<2
+PyYAML>=6.0,<7
+
+# Data and document processing
+pypdf>=5.0,<7
+pandas>=2.2,<3
+numpy>=2.0,<3
+rapidfuzz>=3.10,<4
+
+# ML / retrieval
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+
+# LLM / embeddings
+google-genai>=1.0,<2
+
+# Application
+streamlit>=1.40,<2
+
+# Production API / observability
+fastapi>=0.115,<1
+uvicorn[standard]>=0.32,<1
+python-multipart>=0.0.12,<1
+prometheus-client>=0.21,<1

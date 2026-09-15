@@ -1,0 +1,62 @@
+{
+  "candidate_count": 50,
+  "first_total_processing_ms": 576.09,
+  "second_total_processing_ms": 298.55,
+  "second_search_cache_hit": true,
+  "first_stage_timings_ms": {
+    "document_build": 0.35,
+    "embedding_fit": 7.14,
+    "document_embedding": 6.34,
+    "vector_index_build": 0.1,
+    "query_embedding": 0.49,
+    "vector_search": 0.28,
+    "candidate_aggregation": 0.07,
+    "hybrid_rerank": 240.42,
+    "grounded_evaluation": 0.11,
+    "pdf_parsing": 319.17
+  },
+  "second_stage_timings_ms": {
+    "cache_lookup": 1.33,
+    "pdf_parsing": 297.22
+  },
+  "embedding_model": "tfidf-word-1-2",
+  "vector_backend": "numpy-exact",
+  "evaluator": "heuristic",
+  "top5": [
+    {
+      "rank": 1,
+      "candidate_id": "resume_35",
+      "headline": "Accountant",
+      "experience_years": 3.0,
+      "score": 78.02
+    },
+    {
+      "rank": 2,
+      "candidate_id": "resume_11",
+      "headline": "Senior Accountant",
+      "experience_years": 5.0,
+      "score": 76.11
+    },
+    {
+      "rank": 3,
+      "candidate_id": "resume_22",
+      "headline": "Staff Accountant",
+      "experience_years": 3.0,
+      "score": 74.04
+    },
+    {
+      "rank": 4,
+      "candidate_id": "resume_03",
+      "headline": "Staff Accountant",
+      "experience_years": 4.0,
+      "score": 73.97
+    },
+    {
+      "rank": 5,
+      "candidate_id": "resume_05",
+      "headline": "Staff Accountant",
+      "experience_years": 3.0,
+      "score": 73.77
+    }
+  ]
+}

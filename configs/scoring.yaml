@@ -1,0 +1,15 @@
+# Baseline hybrid scoring configuration.
+# These are hypotheses, not business truth. They will be tuned and justified
+# through evaluation experiments in later phases.
+weights:
+  semantic: 0.25
+  required_skills: 0.30
+  experience: 0.15
+  role: 0.20
+  preferred: 0.10
+
+thresholds:
+  highly_recommended: 85
+  recommended: 70
+  consider: 55
+  not_recommended: 0

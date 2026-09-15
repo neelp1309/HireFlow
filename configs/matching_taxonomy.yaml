@@ -1,0 +1,133 @@
+# Domain concept taxonomy used by the deterministic requirement-aware reranker.
+# The taxonomy converts verbose JD language into auditable accounting concepts.
+# It is intentionally configuration-driven so other domains can replace it.
+concepts:
+  financial_reporting:
+    label: Financial reporting
+    weight: 1.5
+    aliases: [financial reporting, financial statements, financial reports]
+  close_process:
+    label: Month/year-end close
+    weight: 1.4
+    aliases: [month-end closing, month end closing, year-end closing, year end closing, closing process]
+  journal_entries:
+    label: Journal entries
+    weight: 1.3
+    aliases: [journal entries, journal entry]
+  reconciliation:
+    label: Account reconciliation
+    weight: 1.3
+    aliases: [account reconciliation, reconciliations, reconciliation, bank reconciliation, reconciled bank]
+  budgeting:
+    label: Budgeting
+    weight: 1.0
+    aliases: [budget preparation, budget planning, budgeting, budget]
+  variance_analysis:
+    label: Variance analysis
+    weight: 1.0
+    aliases: [variance analysis, variance]
+  payroll:
+    label: Payroll
+    weight: 0.8
+    aliases: [payroll processing, payroll records, payroll]
+  audit:
+    label: Audit
+    weight: 1.0
+    aliases: [internal audit, external audit, audit support, audit preparation, audit]
+  tax:
+    label: Tax preparation/compliance
+    weight: 1.2
+    aliases: [tax preparation, tax compliance, tax returns, tax return, corporate tax, tax]
+  financial_analysis:
+    label: Financial analysis
+    weight: 1.0
+    aliases: [financial analysis, analyze financial data, analysis]
+  financial_modeling:
+    label: Financial modeling
+    weight: 0.8
+    aliases: [financial modeling, financial model]
+  forecasting:
+    label: Forecasting
+    weight: 0.8
+    aliases: [forecasting, forecast]
+  accounts_payable:
+    label: Accounts payable
+    weight: 0.8
+    aliases: [accounts payable, payable]
+  accounts_receivable:
+    label: Accounts receivable
+    weight: 0.8
+    aliases: [accounts receivable, receivable]
+  gaap:
+    label: GAAP
+    weight: 1.5
+    aliases: [gaap, generally accepted accounting principles]
+  collaboration:
+    label: Cross-functional collaboration
+    weight: 0.4
+    aliases: [cross-functional, cross functional, collaboration, collaborate, team collaboration]
+  mentoring:
+    label: Mentoring/leadership
+    weight: 0.5
+    aliases: [mentor, mentoring, mentored, leadership, training junior, junior staff]
+  process_improvement:
+    label: Process improvement
+    weight: 0.5
+    aliases: [process improvement, process improvements, automation, efficiency gains]
+  analytical:
+    label: Analytical/problem solving
+    weight: 0.5
+    aliases: [analytical, problem-solving, problem solving, data analysis, risk assessment, trend analysis]
+  communication:
+    label: Communication
+    weight: 0.4
+    aliases: [communication, interpersonal]
+  detail_orientation:
+    label: Attention to detail
+    weight: 0.4
+    aliases: [attention to detail, detail-oriented, detail oriented, accuracy, accurate]
+  time_management:
+    label: Time management/organization
+    weight: 0.3
+    aliases: [time management, organizational skills, organization]
+
+software_groups:
+  microsoft_excel:
+    label: Microsoft Excel
+    aliases: [microsoft excel, excel, microsoft excel expert]
+  accounting_software:
+    label: Accounting/ERP software
+    aliases: [quickbooks, sap, oracle, netsuite, sage, peachtree, erp systems, accounting software, financial software]
+
+preferred_criteria:
+  advanced_degree:
+    label: Master's degree / MBA
+    aliases: [master of, master's, master’s, mba]
+  cpa:
+    label: CPA certification
+    aliases: [cpa, certified public accountant]
+  public_accounting:
+    label: Public accounting experience
+    aliases: [public accounting, big four accounting firm, audit firm]
+  financial_modeling:
+    label: Financial modeling
+    aliases: [financial modeling]
+  forecasting:
+    label: Forecasting
+    aliases: [forecasting]
+  advanced_excel:
+    label: Advanced Excel
+    aliases: [microsoft excel expert, vba, excel macros, macros, complex formulas]
+  erp:
+    label: ERP systems
+    aliases: [erp systems, sap, oracle, netsuite]
+  tax_software:
+    label: Tax software
+    aliases: [tax software, turbotax, taxact]
+  leadership:
+    label: Leadership / mentoring
+    aliases: [leadership, mentor, mentoring, mentored junior, managed team, supervisor, manager]
+
+education_fields:
+  strong: [accounting, accountancy, finance, taxation]
+  related: [business administration, business, economics]

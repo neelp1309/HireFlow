@@ -1,0 +1,5 @@
+experiment,p@5,p@10,r@5,r@10,strong@5,strong@10,ndcg@5,ndcg@10,mrr,average_precision
+TF-IDF full-resume retrieval,0.6,0.8,0.090909,0.242424,0.0,0.4,0.338386,0.534303,1.0,0.758698
+TF-IDF section-aware retrieval,0.6,0.7,0.090909,0.212121,0.0,0.2,0.317519,0.410837,1.0,0.699202
+TF-IDF full-resume + hybrid reranking,1.0,1.0,0.151515,0.30303,1.0,0.8,1.0,0.925786,1.0,0.988279
+TF-IDF section-aware + hybrid reranking,1.0,1.0,0.151515,0.30303,1.0,0.8,1.0,0.918403,1.0,0.989168

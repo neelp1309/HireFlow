@@ -1,0 +1,33 @@
+from hireflow.models.schemas import (
+    CandidateEvaluation,
+    CandidateMatch,
+    CandidateProfile,
+    CandidateRetrievalResult,
+    Certification,
+    ContactInfo,
+    Education,
+    EvidenceItem,
+    JobRequirements,
+    MatchComponentScores,
+    Recommendation,
+    RetrievalDocument,
+    RetrievalHit,
+    WorkExperience,
+)
+
+__all__ = [
+    "CandidateEvaluation",
+    "CandidateMatch",
+    "CandidateProfile",
+    "CandidateRetrievalResult",
+    "Certification",
+    "ContactInfo",
+    "Education",
+    "EvidenceItem",
+    "JobRequirements",
+    "MatchComponentScores",
+    "Recommendation",
+    "RetrievalDocument",
+    "RetrievalHit",
+    "WorkExperience",
+]

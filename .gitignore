@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime artifacts
+artifacts/indexes/*
+artifacts/cache/*
+artifacts/logs/*
+!artifacts/indexes/.gitkeep
+!artifacts/cache/.gitkeep
+!artifacts/logs/.gitkeep
+
+# Dataset: do not commit resumes/JDs containing personal information.
+data/raw/resumes/*
+data/raw/jobs/*
+data/processed/*
+data/evaluation/*.private.*
+!data/raw/resumes/.gitkeep
+!data/raw/jobs/.gitkeep
+!data/processed/.gitkeep

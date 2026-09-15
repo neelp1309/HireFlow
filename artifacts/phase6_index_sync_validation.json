@@ -1,0 +1,28 @@
+{
+  "first_sync": {
+    "index_name": "real50",
+    "embedding_provider": "tfidf",
+    "document_mode": "full",
+    "vector_backend": "numpy-exact",
+    "total_documents": 50,
+    "embedded_documents": 50,
+    "reused_embeddings": 0,
+    "removed_documents": 0,
+    "full_rebuild": true,
+    "corpus_changed": true,
+    "elapsed_ms": 25.61
+  },
+  "second_sync": {
+    "index_name": "real50",
+    "embedding_provider": "tfidf",
+    "document_mode": "full",
+    "vector_backend": "numpy-exact",
+    "total_documents": 50,
+    "embedded_documents": 0,
+    "reused_embeddings": 50,
+    "removed_documents": 0,
+    "full_rebuild": false,
+    "corpus_changed": false,
+    "elapsed_ms": 5.75
+  }
+}

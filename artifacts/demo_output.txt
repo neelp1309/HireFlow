@@ -1,0 +1,13 @@
+HireFlow public structured-search demo
+Job: Senior Accountant
+Candidates: 3
+Embedding: tfidf-word-1-2
+Vector backend: numpy-exact
+
+Rank  Candidate               Role                       Score        Recommendation
+------------------------------------------------------------------------------------
+1     demo_candidate_01       Senior Accountant          88.20    highly_recommended
+2     demo_candidate_02       Financial Analyst          51.67       not_recommended
+3     demo_candidate_03       Accounting Assistant       35.11       not_recommended
+
+Demo validation passed: the strongest accounting candidate ranked first.

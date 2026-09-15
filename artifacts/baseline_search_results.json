@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "candidate_id": "resume_17",
+    "headline": "Tax Manager",
+    "experience_years": 5.0,
+    "retrieval_score": 0.2828,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 2,
+    "candidate_id": "resume_14",
+    "headline": "Accountant",
+    "experience_years": 2.0,
+    "retrieval_score": 0.2681,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 3,
+    "candidate_id": "resume_50",
+    "headline": "Accounting Assistant",
+    "experience_years": 1.0,
+    "retrieval_score": 0.2512,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 4,
+    "candidate_id": "resume_13",
+    "headline": "Financial Analyst",
+    "experience_years": 2.0,
+    "retrieval_score": 0.245,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 5,
+    "candidate_id": "resume_26",
+    "headline": "Senior Financial Analyst",
+    "experience_years": 6.0,
+    "retrieval_score": 0.2427,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 6,
+    "candidate_id": "resume_11",
+    "headline": "Senior Accountant",
+    "experience_years": 5.0,
+    "retrieval_score": 0.2361,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 7,
+    "candidate_id": "resume_22",
+    "headline": "Staff Accountant",
+    "experience_years": 3.0,
+    "retrieval_score": 0.2322,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 8,
+    "candidate_id": "resume_35",
+    "headline": "Accountant",
+    "experience_years": 3.0,
+    "retrieval_score": 0.2317,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 9,
+    "candidate_id": "resume_03",
+    "headline": "Staff Accountant",
+    "experience_years": 4.0,
+    "retrieval_score": 0.2293,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 10,
+    "candidate_id": "resume_02",
+    "headline": "Senior Accountant",
+    "experience_years": 7.0,
+    "retrieval_score": 0.2276,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 11,
+    "candidate_id": "resume_18",
+    "headline": "Accountant",
+    "experience_years": 4.0,
+    "retrieval_score": 0.2259,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 12,
+    "candidate_id": "resume_06",
+    "headline": "Accounting Assistant",
+    "experience_years": 1.0,
+    "retrieval_score": 0.2258,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 13,
+    "candidate_id": "resume_32",
+    "headline": "Staff Accountant",
+    "experience_years": 3.0,
+    "retrieval_score": 0.2236,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 14,
+    "candidate_id": "resume_34",
+    "headline": "Senior Financial Analyst",
+    "experience_years": 5.0,
+    "retrieval_score": 0.2218,
+    "best_section": "full_resume"
+  },
+  {
+    "rank": 15,
+    "candidate_id": "resume_12",
+    "headline": "Staff Accountant",
+    "experience_years": 3.0,
+    "retrieval_score": 0.22,
+    "best_section": "full_resume"
+  }
+]

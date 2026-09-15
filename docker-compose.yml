@@ -1,0 +1,41 @@
+services:
+  api:
+    build: .
+    image: hireflow:1.0.0
+    environment:
+      APP_ENV: production
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
+      LOG_LEVEL: INFO
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "8000:8000"
+    volumes:
+      - hireflow_artifacts:/app/artifacts
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/live', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  ui:
+    build: .
+    image: hireflow:1.0.0
+    command: ["streamlit", "run", "app/streamlit_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    environment:
+      APP_ENV: production
+      LOG_LEVEL: INFO
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "8501:8501"
+    volumes:
+      - hireflow_artifacts:/app/artifacts
+    profiles: ["ui"]
+
+volumes:
+  hireflow_artifacts:

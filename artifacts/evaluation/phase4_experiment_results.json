@@ -1,0 +1,403 @@
+{
+  "phase": 4,
+  "job_id": "senior_accountant_001",
+  "job_title": "Senior Accountant",
+  "relevant_threshold": 2,
+  "k_values": [
+    5,
+    10,
+    20
+  ],
+  "benchmark": {
+    "candidate_count": 50,
+    "label_distribution": {
+      "not_suitable": 7,
+      "weak_fit": 10,
+      "moderate_fit": 20,
+      "strong_fit": 13
+    },
+    "review_status_distribution": {
+      "project_authored_silver": 50
+    }
+  },
+  "weights": {
+    "semantic": 0.25,
+    "required_skills": 0.3,
+    "experience": 0.15,
+    "role": 0.2,
+    "preferred": 0.1
+  },
+  "experiments": [
+    {
+      "experiment_name": "TF-IDF full-resume retrieval",
+      "embedding_provider": "tfidf",
+      "document_mode": "full",
+      "ranking_method": "semantic_retrieval",
+      "ranked_candidate_ids": [
+        "resume_17",
+        "resume_14",
+        "resume_50",
+        "resume_13",
+        "resume_26",
+        "resume_11",
+        "resume_22",
+        "resume_35",
+        "resume_03",
+        "resume_02",
+        "resume_18",
+        "resume_06",
+        "resume_32",
+        "resume_34",
+        "resume_12",
+        "resume_20",
+        "resume_05",
+        "resume_49",
+        "resume_43",
+        "resume_46",
+        "resume_25",
+        "resume_30",
+        "resume_10",
+        "resume_19",
+        "resume_21",
+        "resume_44",
+        "resume_09",
+        "resume_45",
+        "resume_04",
+        "resume_16",
+        "resume_37",
+        "resume_07",
+        "resume_31",
+        "resume_23",
+        "resume_42",
+        "resume_40",
+        "resume_48",
+        "resume_29",
+        "resume_24",
+        "resume_33",
+        "resume_15",
+        "resume_36",
+        "resume_38",
+        "resume_28",
+        "resume_47",
+        "resume_08",
+        "resume_01",
+        "resume_41",
+        "resume_39",
+        "resume_27"
+      ],
+      "metrics": {
+        "precision_at_k": {
+          "5": 0.6,
+          "10": 0.8,
+          "20": 0.75
+        },
+        "recall_at_k": {
+          "5": 0.090909,
+          "10": 0.242424,
+          "20": 0.454545
+        },
+        "strong_fit_rate_at_k": {
+          "5": 0.0,
+          "10": 0.4,
+          "20": 0.3
+        },
+        "ndcg_at_k": {
+          "5": 0.338386,
+          "10": 0.534303,
+          "20": 0.586656
+        },
+        "reciprocal_rank": 1.0,
+        "average_precision": 0.758698,
+        "relevant_count": 33,
+        "strong_fit_count": 13,
+        "candidate_count": 50
+      }
+    },
+    {
+      "experiment_name": "TF-IDF section-aware retrieval",
+      "embedding_provider": "tfidf",
+      "document_mode": "section",
+      "ranking_method": "semantic_retrieval",
+      "ranked_candidate_ids": [
+        "resume_26",
+        "resume_17",
+        "resume_50",
+        "resume_16",
+        "resume_02",
+        "resume_32",
+        "resume_03",
+        "resume_11",
+        "resume_40",
+        "resume_41",
+        "resume_45",
+        "resume_14",
+        "resume_43",
+        "resume_20",
+        "resume_06",
+        "resume_27",
+        "resume_25",
+        "resume_04",
+        "resume_18",
+        "resume_13",
+        "resume_34",
+        "resume_21",
+        "resume_35",
+        "resume_48",
+        "resume_42",
+        "resume_37",
+        "resume_36",
+        "resume_07",
+        "resume_46",
+        "resume_19",
+        "resume_29",
+        "resume_22",
+        "resume_12",
+        "resume_49",
+        "resume_05",
+        "resume_09",
+        "resume_31",
+        "resume_10",
+        "resume_30",
+        "resume_44",
+        "resume_28",
+        "resume_15",
+        "resume_23",
+        "resume_47",
+        "resume_38",
+        "resume_24",
+        "resume_08",
+        "resume_39",
+        "resume_33",
+        "resume_01"
+      ],
+      "metrics": {
+        "precision_at_k": {
+          "5": 0.6,
+          "10": 0.7,
+          "20": 0.6
+        },
+        "recall_at_k": {
+          "5": 0.090909,
+          "10": 0.212121,
+          "20": 0.363636
+        },
+        "strong_fit_rate_at_k": {
+          "5": 0.0,
+          "10": 0.2,
+          "20": 0.15
+        },
+        "ndcg_at_k": {
+          "5": 0.317519,
+          "10": 0.410837,
+          "20": 0.440782
+        },
+        "reciprocal_rank": 1.0,
+        "average_precision": 0.699202,
+        "relevant_count": 33,
+        "strong_fit_count": 13,
+        "candidate_count": 50
+      }
+    },
+    {
+      "experiment_name": "TF-IDF full-resume + hybrid reranking",
+      "embedding_provider": "tfidf",
+      "document_mode": "full",
+      "ranking_method": "hybrid_reranking",
+      "ranked_candidate_ids": [
+        "resume_35",
+        "resume_11",
+        "resume_19",
+        "resume_31",
+        "resume_37",
+        "resume_22",
+        "resume_03",
+        "resume_05",
+        "resume_17",
+        "resume_02",
+        "resume_10",
+        "resume_40",
+        "resume_49",
+        "resume_24",
+        "resume_32",
+        "resume_47",
+        "resume_43",
+        "resume_14",
+        "resume_29",
+        "resume_34",
+        "resume_45",
+        "resume_26",
+        "resume_12",
+        "resume_30",
+        "resume_18",
+        "resume_23",
+        "resume_15",
+        "resume_48",
+        "resume_01",
+        "resume_36",
+        "resume_44",
+        "resume_38",
+        "resume_04",
+        "resume_21",
+        "resume_46",
+        "resume_13",
+        "resume_50",
+        "resume_28",
+        "resume_09",
+        "resume_06",
+        "resume_33",
+        "resume_39",
+        "resume_07",
+        "resume_20",
+        "resume_41",
+        "resume_27",
+        "resume_42",
+        "resume_16",
+        "resume_25",
+        "resume_08"
+      ],
+      "metrics": {
+        "precision_at_k": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0
+        },
+        "recall_at_k": {
+          "5": 0.151515,
+          "10": 0.30303,
+          "20": 0.606061
+        },
+        "strong_fit_rate_at_k": {
+          "5": 1.0,
+          "10": 0.8,
+          "20": 0.55
+        },
+        "ndcg_at_k": {
+          "5": 1.0,
+          "10": 0.925786,
+          "20": 0.93701
+        },
+        "reciprocal_rank": 1.0,
+        "average_precision": 0.988279,
+        "relevant_count": 33,
+        "strong_fit_count": 13,
+        "candidate_count": 50
+      }
+    },
+    {
+      "experiment_name": "TF-IDF section-aware + hybrid reranking",
+      "embedding_provider": "tfidf",
+      "document_mode": "section",
+      "ranking_method": "hybrid_reranking",
+      "ranked_candidate_ids": [
+        "resume_35",
+        "resume_11",
+        "resume_19",
+        "resume_31",
+        "resume_03",
+        "resume_37",
+        "resume_17",
+        "resume_02",
+        "resume_05",
+        "resume_22",
+        "resume_40",
+        "resume_10",
+        "resume_32",
+        "resume_24",
+        "resume_47",
+        "resume_49",
+        "resume_26",
+        "resume_45",
+        "resume_43",
+        "resume_29",
+        "resume_34",
+        "resume_14",
+        "resume_12",
+        "resume_30",
+        "resume_18",
+        "resume_23",
+        "resume_15",
+        "resume_48",
+        "resume_36",
+        "resume_01",
+        "resume_44",
+        "resume_04",
+        "resume_38",
+        "resume_21",
+        "resume_46",
+        "resume_50",
+        "resume_13",
+        "resume_28",
+        "resume_09",
+        "resume_06",
+        "resume_39",
+        "resume_33",
+        "resume_07",
+        "resume_20",
+        "resume_41",
+        "resume_27",
+        "resume_16",
+        "resume_42",
+        "resume_25",
+        "resume_08"
+      ],
+      "metrics": {
+        "precision_at_k": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0
+        },
+        "recall_at_k": {
+          "5": 0.151515,
+          "10": 0.30303,
+          "20": 0.606061
+        },
+        "strong_fit_rate_at_k": {
+          "5": 1.0,
+          "10": 0.8,
+          "20": 0.6
+        },
+        "ndcg_at_k": {
+          "5": 1.0,
+          "10": 0.918403,
+          "20": 0.953779
+        },
+        "reciprocal_rank": 1.0,
+        "average_precision": 0.989168,
+        "relevant_count": 33,
+        "strong_fit_count": 13,
+        "candidate_count": 50
+      }
+    }
+  ],
+  "random_baseline": {
+    "trials": 1000,
+    "precision_at_k": {
+      "5": 0.6594,
+      "10": 0.6592,
+      "20": 0.66335
+    },
+    "recall_at_k": {
+      "5": 0.099909,
+      "10": 0.199758,
+      "20": 0.40203
+    },
+    "strong_fit_rate_at_k": {
+      "5": 0.2634,
+      "10": 0.2643,
+      "20": 0.25985
+    },
+    "ndcg_at_k": {
+      "5": 0.461152,
+      "10": 0.461371,
+      "20": 0.534156
+    },
+    "reciprocal_rank": 0.805167,
+    "average_precision": 0.68548
+  },
+  "limitations": [
+    "Single-JD benchmark; no claim of cross-role generalization.",
+    "Project-authored silver labels require independent human review for production claims.",
+    "Hybrid weights intentionally not tuned on this benchmark to avoid one-query overfitting.",
+    "Gemini dense embedding experiment not executed without an API key."
+  ]
+}

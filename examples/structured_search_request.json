@@ -1,0 +1,126 @@
+{
+  "job": {
+    "job_id": "demo_senior_accountant",
+    "source_file": null,
+    "title": "Senior Accountant",
+    "company": "DemoCo",
+    "location": "Hybrid",
+    "employment_type": "Full-time",
+    "experience_min_years": 3,
+    "experience_max_years": 5,
+    "responsibilities": [
+      "Prepare financial statements",
+      "Manage month-end close",
+      "Perform account reconciliations",
+      "Support tax and audit activities"
+    ],
+    "required_skills": [
+      "Financial Reporting",
+      "Account Reconciliation",
+      "Tax Preparation",
+      "GAAP"
+    ],
+    "required_software": ["Microsoft Excel", "QuickBooks"],
+    "preferred_skills": ["Financial Modeling", "Forecasting"],
+    "preferred_qualifications": ["Leadership experience"],
+    "education_requirements": ["Bachelor's degree in Accounting or Finance"],
+    "preferred_certifications": ["CPA"],
+    "soft_skills": ["Analytical thinking", "Attention to detail"],
+    "raw_text": ""
+  },
+  "candidates": [
+    {
+      "candidate_id": "demo_candidate_01",
+      "source_file": "examples/demo_candidate_01.pdf",
+      "full_name": null,
+      "headline": "Senior Accountant",
+      "location": null,
+      "contact": null,
+      "professional_summary": "Accounting professional with four years of experience in financial reporting, close activities and reconciliations.",
+      "skills": ["Financial Reporting", "Account Reconciliation", "Tax Preparation", "GAAP", "Forecasting"],
+      "software": ["Microsoft Excel", "QuickBooks", "SAP"],
+      "work_experience": [
+        {
+          "job_title": "Senior Accountant",
+          "company": "Example Manufacturing",
+          "start_date": null,
+          "end_date": null,
+          "duration_years": 4,
+          "responsibilities": ["Prepared monthly financial statements", "Performed account reconciliations", "Supported year-end tax and audit requests"],
+          "achievements": []
+        }
+      ],
+      "total_experience_years": 4,
+      "education": [{"degree": "Bachelor of Science", "field_of_study": "Accounting", "institution": "Example University", "graduation_year": 2021}],
+      "certifications": [],
+      "achievements": [],
+      "raw_text": "",
+      "parser_version": "demo"
+    },
+    {
+      "candidate_id": "demo_candidate_02",
+      "source_file": "examples/demo_candidate_02.pdf",
+      "full_name": null,
+      "headline": "Financial Analyst",
+      "location": null,
+      "contact": null,
+      "professional_summary": "Financial analyst with three years of experience in budgeting, forecasting and management reporting.",
+      "skills": ["Financial Modeling", "Forecasting", "Variance Analysis", "Budgeting"],
+      "software": ["Microsoft Excel", "Power BI"],
+      "work_experience": [
+        {
+          "job_title": "Financial Analyst",
+          "company": "Example Services",
+          "start_date": null,
+          "end_date": null,
+          "duration_years": 3,
+          "responsibilities": ["Built forecasts", "Prepared management reports", "Analyzed budget variances"],
+          "achievements": []
+        }
+      ],
+      "total_experience_years": 3,
+      "education": [{"degree": "Bachelor of Science", "field_of_study": "Finance", "institution": "Example University", "graduation_year": 2022}],
+      "certifications": [],
+      "achievements": [],
+      "raw_text": "",
+      "parser_version": "demo"
+    },
+    {
+      "candidate_id": "demo_candidate_03",
+      "source_file": "examples/demo_candidate_03.pdf",
+      "full_name": null,
+      "headline": "Accounting Assistant",
+      "location": null,
+      "contact": null,
+      "professional_summary": "Junior accounting professional supporting bookkeeping and invoice processing.",
+      "skills": ["Accounts Payable", "Bookkeeping", "Data Entry"],
+      "software": ["Microsoft Excel"],
+      "work_experience": [
+        {
+          "job_title": "Accounting Assistant",
+          "company": "Example Retail",
+          "start_date": null,
+          "end_date": null,
+          "duration_years": 1,
+          "responsibilities": ["Processed invoices", "Maintained transaction records"],
+          "achievements": []
+        }
+      ],
+      "total_experience_years": 1,
+      "education": [{"degree": "Bachelor of Commerce", "field_of_study": "Accounting", "institution": "Example College", "graduation_year": 2025}],
+      "certifications": [],
+      "achievements": [],
+      "raw_text": "",
+      "parser_version": "demo"
+    }
+  ],
+  "config": {
+    "document_mode": "full",
+    "embedding_provider": "tfidf",
+    "vector_backend": "numpy",
+    "evaluator": "heuristic",
+    "top_k_retrieval": 3,
+    "top_k_rerank": 3,
+    "final_top_k": 3
+  }
+}

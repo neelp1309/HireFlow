@@ -1,0 +1,51 @@
+job_id,candidate_id,relevance_label,label_name,rationale,review_status
+senior_accountant_001,resume_01,2,moderate_fit,"Relevant accounting role and experience, but one or more meaningful breadth, evidence, or seniority gaps prevent a strong-fit label.",project_authored_silver
+senior_accountant_001,resume_02,2,moderate_fit,"Direct Senior Accountant alignment and relevant evidence, but experience is above the preferred 3-5 year band.",project_authored_silver
+senior_accountant_001,resume_03,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_04,2,moderate_fit,"Direct accountant-family role with meaningful overlap, but experience is below the 3-year minimum.",project_authored_silver
+senior_accountant_001,resume_05,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_06,1,weak_fit,"Accounting-relevant background, but experience is materially below the 3-year minimum and the role is junior/entry level.",project_authored_silver
+senior_accountant_001,resume_07,1,weak_fit,"Accounting-relevant background, but experience is materially below the 3-year minimum and the role is junior/entry level.",project_authored_silver
+senior_accountant_001,resume_08,0,not_suitable,Recent-graduate/entry profile does not demonstrate the required 3-5 years of progressive accounting experience.,project_authored_silver
+senior_accountant_001,resume_09,0,not_suitable,Executive-level scope and 10 years of experience are materially misaligned with the target Senior Accountant level.,project_authored_silver
+senior_accountant_001,resume_10,2,moderate_fit,"Direct Senior Accountant alignment and relevant evidence, but experience is above the preferred 3-5 year band.",project_authored_silver
+senior_accountant_001,resume_11,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_12,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_13,1,weak_fit,"Related finance experience exists, but both role alignment and direct senior-accounting fit are weaker than target candidates.",project_authored_silver
+senior_accountant_001,resume_14,2,moderate_fit,"Direct accountant-family role with meaningful overlap, but experience is below the 3-year minimum.",project_authored_silver
+senior_accountant_001,resume_15,1,weak_fit,"Accounting domain is relevant, but the profile is tax-specialized and outside the preferred experience/role alignment.",project_authored_silver
+senior_accountant_001,resume_16,0,not_suitable,Recent-graduate/entry profile does not demonstrate the required 3-5 years of progressive accounting experience.,project_authored_silver
+senior_accountant_001,resume_17,2,moderate_fit,"Strong accounting/tax background and target-range experience, but the role is specialized relative to the broader Senior Accountant scope.",project_authored_silver
+senior_accountant_001,resume_18,2,moderate_fit,"Relevant accounting role and experience, but one or more meaningful breadth, evidence, or seniority gaps prevent a strong-fit label.",project_authored_silver
+senior_accountant_001,resume_19,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_20,1,weak_fit,"Related finance experience exists, but both role alignment and direct senior-accounting fit are weaker than target candidates.",project_authored_silver
+senior_accountant_001,resume_21,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_22,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_23,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_24,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_25,0,not_suitable,Recent-graduate/entry profile does not demonstrate the required 3-5 years of progressive accounting experience.,project_authored_silver
+senior_accountant_001,resume_26,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_27,0,not_suitable,Recent-graduate/entry profile does not demonstrate the required 3-5 years of progressive accounting experience.,project_authored_silver
+senior_accountant_001,resume_28,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_29,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_30,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_31,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_32,2,moderate_fit,"Relevant accounting role and experience, but one or more meaningful breadth, evidence, or seniority gaps prevent a strong-fit label.",project_authored_silver
+senior_accountant_001,resume_33,1,weak_fit,"Some accounting relevance exists, but material role, experience, or breadth gaps reduce suitability.",project_authored_silver
+senior_accountant_001,resume_34,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_35,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_36,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_37,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_38,1,weak_fit,"Accounting leadership background is relevant, but controller-level seniority and 8 years are substantially above the target role.",project_authored_silver
+senior_accountant_001,resume_39,1,weak_fit,"Some accounting relevance exists, but material role, experience, or breadth gaps reduce suitability.",project_authored_silver
+senior_accountant_001,resume_40,2,moderate_fit,"Adjacent finance role with meaningful accounting overlap, but title/function alignment is weaker than a direct accountant role.",project_authored_silver
+senior_accountant_001,resume_41,0,not_suitable,Recent-graduate/entry profile does not demonstrate the required 3-5 years of progressive accounting experience.,project_authored_silver
+senior_accountant_001,resume_42,0,not_suitable,Recent-graduate/entry profile does not demonstrate the required 3-5 years of progressive accounting experience.,project_authored_silver
+senior_accountant_001,resume_43,2,moderate_fit,"Relevant accounting role and experience, but one or more meaningful breadth, evidence, or seniority gaps prevent a strong-fit label.",project_authored_silver
+senior_accountant_001,resume_44,2,moderate_fit,"Direct accountant-family role with meaningful overlap, but experience is below the 3-year minimum.",project_authored_silver
+senior_accountant_001,resume_45,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_46,1,weak_fit,"Accounting leadership background is relevant, but controller-level seniority and 8 years are substantially above the target role.",project_authored_silver
+senior_accountant_001,resume_47,3,strong_fit,"Direct accountant-family role, within the 3-5 year target, with broad job-relevant accounting evidence.",project_authored_silver
+senior_accountant_001,resume_48,2,moderate_fit,"Direct accountant-family role with meaningful overlap, but experience is below the 3-year minimum.",project_authored_silver
+senior_accountant_001,resume_49,2,moderate_fit,"Direct accountant-family role with meaningful overlap, but experience is below the 3-year minimum.",project_authored_silver
+senior_accountant_001,resume_50,1,weak_fit,"Accounting-relevant background, but experience is materially below the 3-year minimum and the role is junior/entry level.",project_authored_silver
